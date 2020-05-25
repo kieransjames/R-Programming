@@ -3,6 +3,7 @@ require(dplyr)
 require(jsonlite)
 require(caret)
 
+#In order to run, this script needs a custom built Shot Quality Model (a random forest model)
 ShotQualityModelAllPreds=readRDS("/Users/kieransjames/ShotQualityModelAllPreds.RData")
 
 set.seed(11)
